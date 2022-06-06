@@ -15,8 +15,10 @@ module.exports = (sequelize, DataTypes) => {
   }
   Customer.init({
     id: {
-      type: DataTypes.INTEGER,
-      primaryKey: true
+      allowNull: false,
+      autoIncrement: true,
+      primaryKey: true,
+      type: DataTypes.INTEGER
     },
     full_name: DataTypes.STRING
   }, {
