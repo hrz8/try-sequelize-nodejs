@@ -5,9 +5,9 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "db:create": "sequelize db:create --config=sequelize.config.json",
-    "db:migrate": "sequelize db:migrate --config=sequelize.config.json",
-    "db:seed:all": "sequelize db:seed:all --config=sequelize.config.json",
+    "db:create": "sequelize db:create --config=sequelize-cli.config.json",
+    "db:migrate": "sequelize db:migrate --config=sequelize-cli.config.json",
+    "db:seed:all": "sequelize db:seed:all --config=sequelize-cli.config.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
